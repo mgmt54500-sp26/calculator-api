@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "calculator-api"
+version = "0.1.0"
+description = "A simple calculator API for learning FastAPI and cloud deployment"
+authors = ["Your Name <your.email@example.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.0"
+uvicorn = {extras = ["standard"], version = "^0.27.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
